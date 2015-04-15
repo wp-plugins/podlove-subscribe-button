@@ -34,16 +34,16 @@ Feel free to contribute and to fix errors or send improvements via github.
 1. Upload the plugin folder to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 
-== Usage ==
-1. Navigate to `Settings > Podcast Subscribe Button`
-2. Fill out all fields, save and grab the shortcode
-3. Add the button to your blog using the shortcode `[podlove-subscribe-button id="{{yourButtonID}}"]` with your button ID, or use the provided Podlove Subscribe Button Widget
-
 == Screenshots ==
 1. The Subscribe buttons are listed with a preview to check their functionality.
 2. The Subscribe button administration interface.
 3. The Subscribe button widgets provides an easy way to include your button in your blog.
 4. The Subscribe button widgets can be easily be adjusted to your needs.
+
+== Usage ==
+1. Navigate to `Settings > Podcast Subscribe Button`
+2. Fill out all fields, save and grab the shortcode
+3. Add the button to your blog using the shortcode `[podlove-subscribe-button id="{{yourButtonID}}"]` with your button ID, or use the provided Podlove Subscribe Button Widget
 
 == Options ==
 * `size` One of 'small', 'medium', 'big', 'big-logo'
