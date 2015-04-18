@@ -30,9 +30,9 @@ Podlove is an open source initiative to improve the overall podcasting infrastru
 
 Podlove currently provides:
 
-* ***Podlove Podcast Publisher*** --- a powerful plugin for WordPress for podcasters to publish metadata-rich podcasts 
-* ***Podlove Web Player*** --- a podcast-optimized HTML5 web player with chapter support
-* ***Podlove Subscribe Button*** --- a centrally hosted universal podcast subscribe button for the web
+* ***Podlove Podcast Publisher*** - a powerful plugin for WordPress for podcasters to publish metadata-rich podcasts 
+* ***Podlove Web Player*** - a podcast-optimized HTML5 web player with chapter support
+* ***Podlove Subscribe Button*** - a centrally hosted universal podcast subscribe button for the web
 
 ### Other Resources
 
