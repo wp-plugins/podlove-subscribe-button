@@ -32,7 +32,7 @@ Podlove currently provides:
 
 * ***Podlove Podcast Publisher*** --- a powerful plugin for WordPress for podcasters to publish metadata-rich podcasts 
 * ***Podlove Web Player*** --- a podcast-optimized HTML5 web player with chapter support
-* ***Podlove Subscribe Button --- a centrally hosted universal podcast subscribe button for the web
+* ***Podlove Subscribe Button*** --- a centrally hosted universal podcast subscribe button for the web
 
 ### Other Resources
 
@@ -68,9 +68,9 @@ This is the easiest and recommended way of using this plugin especially if you o
 
 If you want to include a Podlove Subscribe Button in a WordPress page (or a post) just put the shortcode `[podlove-subscribe-button]` at the desired position in your text. Use the following shortcode parameters to configure it properly:
 
-* `button` --- the ID of one of your preconfigured buttons
-* `size` --- one of 'small', 'medium', 'big', 'big-logo'
-* `width` --- specify desired button width in CSS compatibles values or 'auto' automatic width depending on context.
+* `button` - the ID of one of your preconfigured buttons
+* `size` - one of 'small', 'medium', 'big', 'big-logo'
+* `width` - specify desired button width in CSS compatibles values or 'auto' automatic width depending on context.
 
 
 ### Shortcode Examples
@@ -87,7 +87,7 @@ Displays a small button with a width of 100pt using data from button configurati
 
 == Frequently Asked Questions ==
 
-### I'm running the _Podlove Publisher_. Do I need this plugin to display a Subscribe button?
+### I'm running the ***Podlove Publisher***. Do I need this plugin to display a Subscribe button?
 
 Yes and No. If you simply want to display a Subscribe Button for your Podcast you publish with the Podlove Publisher you do not need this plugin as the Publisher itself provides this functionality. If you want to display multiple Subscribe Buttons you can use the Subscribe Button plugin.
 
