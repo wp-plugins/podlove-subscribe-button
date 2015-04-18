@@ -15,7 +15,7 @@ Podlove Subscribe button allows your users to easily select a podcast feed and p
 This plugin allows easy inclusion of the Podlove Subscribe Button. Put it in your sidebar with a simple widget or include the button in pages and/or posts with a simple shortcode.
 
 
-===About the Podlove Subscribe Button===
+### About the Podlove Subscribe Button
 
 The Podlove Subscribe Button allows for simple subscription of podcasts in anybody's favorite podcast app right from the browser without having to deal with pesky feed URLs and go on a hunt for feed subscription dialogues.
 
@@ -24,7 +24,7 @@ The button knows how to activate the subscription functionality in all popular p
 The button is centrally hosted and gets permanently updated when new podcast apps emerge or when new features are added. Using the button ensures your podcast can easily be subscribed to and presents an ever more popular user interface that your audience gets more and more used to.
 
 
-===About Podlove===
+### About Podlove
 
 Podlove is an open source initiative to improve the overall podcasting infrastructure and to come up with simple but helpful standards and tools to make publishing and listening to podcast as easy as possible.
 
@@ -34,7 +34,7 @@ Podlove currently provides:
 * ***Podlove Web Player*** --- a podcast-optimized HTML5 web player with chapter support
 * ***Podlove Subscribe Button --- a centrally hosted universal podcast subscribe button for the web
 
-===Other Resources===
+### Other Resources
 
 * Podlove Project: http://podlove.org/
 * Podlove Community: https://community.podlove.org/
@@ -46,25 +46,25 @@ Podlove currently provides:
 
 == Installation ==
 
-=== Install the plugin ===
+###  Install the plugin
 
 1. Upload the plugin folder to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 
-=== Configure buttons ===
+### Configure buttons
 
 1. Navigate to `Settings > Podlove Subscribe Button`
 2. Fill out all fields, save and grab the shortcode
 3. Add the button to your blog using the shortcode `[podlove-subscribe-button id="{{yourButtonID}}"]` with your button ID, or use the provided Podlove Subscribe Button Widget
 
-=== Display the Subscribe Button in your Sidebar using a Widget ===
+### Display the Subscribe Button in your Sidebar using a Widget
 
 Go to `Appearance -> Widgets` and drag the "Podlove Subscribe Button" widget to your sidebar configuration. Select the pre-configured button from the list and determine which style you want. That's it. The button should show up in your sidebar. Optionally add a title and description for your widget.
 
 This is the easiest and recommended way of using this plugin especially if you ony want to display a button for a single podcast. For best visibility choose size "big-logo" to make your Subscribe Button stand out and easily locatable.
 
 
-=== Include the Subscribe Button in WordPress pages using a Shortcode ==
+### Include the Subscribe Button in WordPress pages using a Shortcode
 
 If you want to include a Podlove Subscribe Button in a WordPress page (or a post) just put the shortcode `[podlove-subscribe-button]` at the desired position in your text. Use the following shortcode parameters to configure it properly:
 
@@ -73,7 +73,7 @@ If you want to include a Podlove Subscribe Button in a WordPress page (or a post
 * `width` --- specify desired button width in CSS compatibles values or 'auto' automatic width depending on context.
 
 
-==== Shortcode Examples ====
+### Shortcode Examples
 
 `[podlove-subscribe-button button="mybutton1" size="big-logo"]`
 Displays a large button with the podcast logo on top using data from button configuration with id "mybutton1"
@@ -112,22 +112,20 @@ Consult the information provided on [the technical information page](http://podl
 4. The Subscribe button widgets can be easily be adjusted to your needs.
 
 
-
-
 == Upgrade Notice ==
 
-=== 1.0.1 ===
+### 1.0.1
 * Shortcodes: The `id` attribute was changed to `button`. Please adjust your shortcodes.
 
 
 == Changelog ==
 
-=== 1.0.1 ===
+### 1.0.1
 * Enhancements in documentation
 * Smaller Bugfixes
 * Shortcodes: Change `id` attribute to `button`
 
-=== 1.0 ===
+### 1.0
 
 * Initial Release
 * Settings page to allow definition of preconfigured buttons
