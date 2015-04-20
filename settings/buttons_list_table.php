@@ -32,11 +32,15 @@ class Button_List_Table extends \WP_List_Table {
 	}
 
 	function column_button_preview( $button ) {
-
 		if ( ! $button->feeds )
 			return;
 
-		return "<div class='podlove-button-preview-container'>" . $button->render('big-logo', 'off') . "</div>";
+		$is_network = get_current_screen()->is_network;
+
+		return "<div class='podlove-button-preview-container'>" . $button->render(
+				( $is_network ? 'big-logo' : get_option('podlove_subscribe_button_default_style', 'big-logo') ),
+			 	( $is_network ? FALSE : get_option('podlove_subscribe_button_default_autowidth', 'on') )
+			 ) . "</div>";
 	}
 	
 	function column_id( $button ) {
@@ -62,7 +66,8 @@ class Button_List_Table extends \WP_List_Table {
 		
 		// retrieve data
 		// TODO select data for current page only
-		$data = \PodloveSubscribeButton\Model\Button::all();
+		$screen = get_current_screen();
+		$data = ( $screen->is_network ? \PodloveSubscribeButton\Model\NetworkButton::all() : \PodloveSubscribeButton\Model\Button::all() );
 		
 		// get current page
 		$current_page = $this->get_pagenum();
