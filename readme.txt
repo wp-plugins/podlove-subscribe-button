@@ -4,7 +4,7 @@ Donate link: http://flattr.com/thing/728463/Podlove-Podcasting-Plugin-for-WordPr
 Tags: button, podlove, podcast, feed, subscribe, widget, network
 Requires at least: 3.0.1
 Tested up to: 4.2
-Stable tag: 1.1
+Stable tag: 1.1.1
 License: MIT
 License URI: http://opensource.org/licenses/MIT
 
@@ -30,7 +30,7 @@ Podlove is an open source initiative to improve the overall podcasting infrastru
 
 Podlove currently provides:
 
-* ***Podlove Podcast Publisher*** - a powerful plugin for WordPress for podcasters to publish metadata-rich podcasts
+* ***Podlove Podcast Publisher*** - a powerful plugin for WordPress for podcasters to publish metadata-rich podcasts 
 * ***Podlove Web Player*** - a podcast-optimized HTML5 web player with chapter support
 * ***Podlove Subscribe Button*** - a centrally hosted universal podcast subscribe button for the web
 
